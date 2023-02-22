@@ -5,7 +5,7 @@ Note: Bag of Words is just a special case of N-Grams where n=1
 
 
 ## Bag of Words (BOW)
-BOW is a technique used in natural language processing to represent text as a collection of words, ignoring the order of the words. It creates a histogram of the frequency of each word in a document or a corpus. 
+BOW is a technique used in natural language processing to represent text as a collection of words, ignoring the order of the words. It creates a histogram of the frequency of each word in a document or a corpus. This approach is suitable for tasks such as sentiment analysis, where the overall sentiment of the text is more important than the specific order of the words.
 
 ### Example:
 Consider the following two sentences: 
@@ -32,7 +32,7 @@ The BOW representation for these two sentences would be:
 <br><br>
 
 ## N-Grams
-N-grams are a contiguous sequence of n items from a given sample of text, where n refers to the number of words in the sequence. N-grams are useful in language modeling, text generation, and machine translation.
+N-grams are similar to BoW, but they capture the sequence of words up to a certain length (e.g., bigrams, trigrams, etc.) They are a contiguous sequence of n items from a given sample of text, where n refers to the number of words in the sequence. N-grams are useful in language modeling, text generation, and machine translation.
 
 ### Example:
 Consider the sentence "The quick brown fox jumps over the lazy dog." The bigrams (2-grams) for this sentence would be:
@@ -51,7 +51,7 @@ Consider the sentence "The quick brown fox jumps over the lazy dog." The bigrams
 <br><br>
 
 ## TF-IDF (Term Frequency-Inverse Document Frequency)
-TF-IDF is a statistical measure used to evaluate the importance of a term within a document or a corpus. It measures the frequency of a term in a document against the frequency of the same term in the corpus. This helps in identifying the importance of a term in a particular document in comparison to its importance in the corpus as a whole.
+TF-IDF is a statistical measure used to evaluate the importance of a term within a document or a corpus. It measures the frequency of a term in a document against the frequency of the same term in the corpus. This helps in identifying the importance of a term in a particular document in comparison to its importance in the corpus as a whole. This approach is useful for tasks such as information retrieval or document classification, where you want to identify the most relevant documents based on the query terms.
 
 ### Example:
 Consider a corpus of two documents:
@@ -74,7 +74,7 @@ TF-IDF("cat", Document 1) = TF("cat", Document 1) * IDF("cat") = 0.14 * 0.69 = 0
 
 ## Part of Speech (POS) Tagging
 
-POS tagging is the process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.). This is a crucial step in natural language processing as it helps to understand the meaning of a sentence and how its words are related to each other.
+POS tagging is the process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.). This is a crucial step in natural language processing as it helps to understand the meaning of a sentence and how its words are related to each other. This approach is useful for tasks such as text summarization or information extraction, where you want to identify the key entities and actions in the text.
 
 ### Example:
 Consider the sentence: "The cat is sleeping on the couch."
