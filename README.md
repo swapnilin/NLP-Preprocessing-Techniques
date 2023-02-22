@@ -96,3 +96,7 @@ In this example, DT stands for determiner, NN stands for noun, VBZ stands for ve
 
 This POS tagging helps to identify the grammatical structure of the sentence and can be used for tasks such as text classification, sentiment analysis, and machine translation.
 
+<br><br>
+
+In general, the choice of pre-processing techniques depends on the specific text analysis task, the size of the dataset, and the computational resources available. It is often a good idea to experiment with different techniques and evaluate their performance on the task at hand.
+
