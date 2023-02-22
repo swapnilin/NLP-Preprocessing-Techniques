@@ -74,7 +74,7 @@ TF-IDF("cat", Document 1) = TF("cat", Document 1) * IDF("cat") = 0.14 * 0.69 = 0
 
 ## Part of Speech (POS) Tagging
 
-POS tagging is the process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.). This is a crucial step in natural language processing as it helps to understand the meaning of a sentence and how its words are related to each other. This approach is useful for tasks such as text summarization or information extraction, where you want to identify the key entities and actions in the text.
+POS tagging is the process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.). This is a crucial step in natural language processing as it helps to understand the meaning of a sentence and how its words are related to each other. This approach is useful for tasks such as Named Entity Recognition (NER), text summarization or information extraction, where you want to identify the key entities and actions in the text.
 
 ### Example:
 Consider the sentence: "The cat is sleeping on the couch."
