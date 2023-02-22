@@ -29,6 +29,8 @@ The BOW representation for these two sentences would be:
 | park  | 0          | 1          |
 
 
+<br><br>
+
 ## N-Grams
 N-grams are a contiguous sequence of n items from a given sample of text, where n refers to the number of words in the sequence. N-grams are useful in language modeling, text generation, and machine translation.
 
@@ -46,6 +48,7 @@ Consider the sentence "The quick brown fox jumps over the lazy dog." The bigrams
 | the lazy | 1     |
 | lazy dog | 1     |
 
+<br><br>
 
 ## TF-IDF (Term Frequency-Inverse Document Frequency)
 TF-IDF is a statistical measure used to evaluate the importance of a term within a document or a corpus. It measures the frequency of a term in a document against the frequency of the same term in the corpus. This helps in identifying the importance of a term in a particular document in comparison to its importance in the corpus as a whole.
@@ -67,9 +70,9 @@ IDF("cat") = log_e(2/1) = 0.69
 
 TF-IDF("cat", Document 1) = TF("cat", Document 1) * IDF("cat") = 0.14 * 0.69 = 0.097
 
+<br><br>
 
-
-# Explanation of Part of Speech (POS) Tagging
+## Part of Speech (POS) Tagging
 
 POS tagging is the process of labeling each word in a sentence with its corresponding part of speech (noun, verb, adjective, etc.). This is a crucial step in natural language processing as it helps to understand the meaning of a sentence and how its words are related to each other.
 
